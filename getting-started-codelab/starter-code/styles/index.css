@@ -8,7 +8,7 @@
   height: 800px;
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: black;
+  background-color: grey;
   box-sizing: border-box;
   
 }
@@ -25,7 +25,16 @@ h1 {
 }
 
 .map{
+  top: 20%;
+  position: absolute;
   height: 450px;
+}
+.robot{
+  background-color: black;
+  border-radius: 25px;
+  position: relative;
+  top: 275px;
+  height: 50px;
 }
 .blockly-div {
   position: absolute;
